@@ -1,0 +1,28 @@
+@media screen and (max-width:600px) {
+    body{
+        /* background-color: red; */
+        padding: 10px;
+    }
+    nav .hide{
+        display: none;
+    }
+    .nav-bar ul li {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner{
+        width: 100%;
+        background-size: cover;
+    }
+    .banner-title{
+        font-size: 22px;
+    }
+    .input-area{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+    }
+
+}
