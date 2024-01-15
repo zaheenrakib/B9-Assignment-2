@@ -129,11 +129,54 @@ span {
 
 
 /* start a out tour Section */
-.tours-section{
+.tours-section {
     display: flex;
+    gap: 30px;
 }
+
 .tours-title {
     color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.tours-text {
+    margin: 10px 0px 0px 0px;
+    padding: 10px 0px 0px 10px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.tours-li {
+    color: rgba(19, 19, 24, 0.70);
+    margin: 10px 0px 0px 0px;
+    padding: 10px 0px 0px 0px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.read-btn {
+    margin-top: 20px;
+    background-color: #FF5400;
+    padding: 20px;
+    border: none;
+    color: #FFF;
+    border-radius: 8px;
+    font: bold;
+    font-weight: 900;
+}
+
+
+/* Start a destianation section */
+.destinations{
+    margin-top: 20px;
+}
+.des-title {
+    color: #131318;
+    text-align: center;
     font-size: 40px;
     font-weight: 800;
 }
