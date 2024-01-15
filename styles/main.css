@@ -172,11 +172,31 @@ span {
 
 /* Start a destianation section */
 .destinations{
-    margin-top: 20px;
+    margin-top: 30px;
+}
+.des-text{
+    width: 200px;
+    text-align: center;
 }
 .des-title {
     color: #131318;
     text-align: center;
     font-size: 40px;
     font-weight: 800;
+}
+
+.top-img{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.middle-img{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.last-img{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
 }
