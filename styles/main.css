@@ -313,6 +313,78 @@ span {
     left: 50%;
 }
 
+/* Deals Section */
+
+.deals-head {
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.deals-title {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.deals-text {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/* Banner start */
+
+
+.deals-banner-one {
+    background-image: url("../Images/Group\ 39.png");
+    background-size: 100% 100%;
+    height: 80vh;
+    display: block;
+}
+/* Deals card */
+
+.deals-card {
+    position: relative;
+    left: 50%;
+    top: 30%;
+    width: 500px;
+    height: 300px;
+    border-radius: 16px;
+    margin-top: 20px;
+    margin: 20px 20px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+}
+.deals-card-two {
+    position: relative;
+    left: 0%;
+    top: 30%;
+    width: 500px;
+    height: 300px;
+    border-radius: 16px;
+    margin-top: 20px;
+    margin: 20px 20px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+}
+
+
+
+
+.deals-banner-two {
+    background-image: url("../Images/Group\ 40.png");
+    background-size: 100% 100%;
+    height: 80vh;
+    display: block;
+}
+
+
 
 /* Start a  Simple Perfect Place To Get Lost */
 .perfect-place {
@@ -411,15 +483,18 @@ span {
     width: 100%;
     display: block;
 }
-.news-pic{
+
+.news-pic {
     position: relative;
 }
-.news-img-btn{
+
+.news-img-btn {
     position: absolute;
 
     bottom: 12%;
     right: 2%;
 }
+
 .news-container {
     display: flex;
     justify-content: space-between;
@@ -436,13 +511,14 @@ span {
     background: #FF5400;
     border: none;
 }
-.travel-site{
+
+.travel-site {
     color: #FFF;
     font-size: 24px;
 
 }
 
-.save-up{
+.save-up {
     color: #FFF;
     font-size: 32px;
 }
