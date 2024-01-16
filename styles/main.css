@@ -78,7 +78,7 @@ span {
 
 .banner-content {
     text-align: center;
-    padding: 100px 0;
+    padding: 50px 0;
     max-width: 800px;
     margin: 0 auto;
 }
@@ -243,6 +243,7 @@ span {
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(224, 167, 102, 0.05);
 }
+
 .top-card {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -259,4 +260,37 @@ span {
 .item3 {
     position: relative;
     left: 50%;
+}
+
+
+/* Start a  Simple Perfect Place To Get Lost */
+.perfect-place{
+    margin-top: 30px;
+}
+.get-container {
+    display: flex;
+}
+
+.get-title {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 60px;
+}
+
+.get-text {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.get-btn{
+    padding: 15px 30px;
+    border: none;
+    color: #FFF;
+    font: 800;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 10px;
+    background-color: var(--primary-color);
 }
