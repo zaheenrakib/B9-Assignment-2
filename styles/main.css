@@ -295,9 +295,11 @@ span {
     font-weight: 400;
     line-height: 26px;
 }
-.iframe{
+
+.iframe {
     border-radius: 10px;
 }
+
 .get-btn {
     padding: 15px 30px;
     border: none;
@@ -307,6 +309,15 @@ span {
     font-weight: 400;
     border-radius: 10px;
     background-color: var(--primary-color);
+}
+
+.get-container .content li {
+    color: #131318;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
 }
 
 /* Satrt a newsLetter */
@@ -325,12 +336,14 @@ span {
     padding: 20px;
     border: none;
     outline: none;
-    margin-top: 20px;
-    margin-bottom: 10px;
+    margin-top: 30px;
+
 }
-.news-div{
+
+.news-div {
     padding: 20px;
 }
+
 .news-title {
     color: #131318;
     font-size: 32px;
@@ -339,6 +352,7 @@ span {
 }
 
 .subscribe-btn {
+    margin-top: 20px;
     border: none;
     color: #FFF;
     font-weight: 600;
@@ -349,13 +363,15 @@ span {
     border-radius: 8px;
     background: #FF5400;
 }
-.news-img{
+
+.news-img {
     width: 100%;
 }
+
 .news-container {
     display: flex;
     justify-content: space-between;
-    margin: 10px;
+    margin: 15px;
     gap: 10px;
 }
 

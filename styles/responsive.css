@@ -23,7 +23,7 @@
         align-items: center;
     }
     .banner {
-        background-size: cover;
+        background-size: 100% 100%;
     }
 
     .banner-title {
