@@ -207,22 +207,25 @@ span {
 .image-section img {
     width: 100%;
     margin-top: 10px;
-    display: block;
 }
-
 .top-img {
     display: flex;
-    gap: 20px;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
-.img-one{
+.maldiv{
     position: relative;
 }
-.one{
-    position: absolute;
-    left: 50%;
+.maldiv img{
+    width: 100%;
+    display: block;
 }
-
+.country{
+    position: absolute;
+    color: #FFF;
+    font-size: 24px;
+    left: 45%;
+    top: 50%;
+}
 .middle-img {
     display: flex;
     justify-content: space-between;
