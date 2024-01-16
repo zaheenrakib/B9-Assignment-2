@@ -77,16 +77,13 @@ span {
 }
 
 .banner-content {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+
 }
 
 .banner-text {
-    width: 576px;
     color: #ffffff;
     text-align: center;
     font-size: 16px;
@@ -171,32 +168,65 @@ span {
 
 
 /* Start a destianation section */
-.destinations{
+.destinations {
     margin-top: 30px;
 }
-.des-text{
-    width: 200px;
-    text-align: center;
-}
+
 .des-title {
     color: #131318;
-    text-align: center;
     font-size: 40px;
     font-weight: 800;
 }
 
-.top-img{
+.des-head {
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.image-section img {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.top-img {
     display: flex;
-    justify-content: space-between;
     gap: 20px;
+    justify-content: space-between;
 }
-.middle-img{
-    margin-top: 10px;
+
+.middle-img {
+    gap: 20px;
     display: flex;
     justify-content: space-between;
 }
-.last-img{
-    margin-top: 10px;
+
+.last-img {
+    gap: 20px;
     display: flex;
     justify-content: space-between;
+}
+
+
+/* start a Why Choose Section */
+.why-choose {
+    margin-top: 30px;
+}
+
+.choose-head {
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.choose-title {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.card-title {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
 }

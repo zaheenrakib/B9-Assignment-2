@@ -1,28 +1,51 @@
 @media screen and (max-width:600px) {
-    body{
+    body {
         /* background-color: red; */
         padding: 10px;
     }
-    nav .hide{
-        display: none;
+
+    .nav-bar {
+        flex-direction: column;
     }
+
+    nav .hide {
+        /* display: none; */
+    }
+
     .nav-bar ul li {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .banner{
-        width: 100%;
+
+    .banner {
         background-size: cover;
     }
-    .banner-title{
+
+    .banner-title {
         font-size: 22px;
     }
-    .input-area{
-        display: flex;
+
+    .input-area {
+        display: inline-flex;
         flex-direction: column;
         align-items: center;
-        padding: 0px;
+        gap: 20px;
+        width: 100%;
     }
 
+    .select-location {
+        display: flex;
+        width: 280px;
+        padding: 16px;
+        margin: 0 auto;
+        flex-direction: column;
+        gap: 16px;
+    }
+    .tours-section ,.top-img ,.middle-img ,.last-img{
+        flex-direction: column;
+    }
+    .top-img ,.middle-img ,.last-img{
+        gap: 0px;
+    }
 }
