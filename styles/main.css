@@ -329,7 +329,7 @@ span {
 
 .deals-title {
     color: #131318;
-    font-size: 24px;
+    font-size: 40px;
     font-weight: 800;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -356,9 +356,10 @@ span {
 
 .deals-card {
     position: relative;
+    padding: 10px;
     left: 50%;
     top: 30%;
-    width: 500px;
+    width: 600px;
     height: 300px;
     border-radius: 16px;
     margin-top: 20px;
@@ -382,7 +383,9 @@ span {
     backdrop-filter: blur(2.5px);
 }
 
-
+.font-small {
+    font-size: 18px;
+}
 
 
 .deals-banner-two {
@@ -393,6 +396,70 @@ span {
 }
 
 
+
+
+/* Deals Card Content */
+
+.head-with-icon {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.clock {
+    display: flex;
+    align-items: center;
+}
+
+.pepole {
+    display: flex;
+    align-items: center;
+}
+
+.locations {
+    display: flex;
+    align-items: center;
+}
+
+
+.body-card {
+    margin-top: 15px;
+    padding: 20px;
+}
+
+.head-card {
+    font-size: 30px;
+    margin: 10px;
+}
+
+.text-card {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 10px;
+}
+
+.price-span {
+    color: #FF5400;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.btn-card {
+    width: 150px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    border: none;
+    margin-top: 8px;
+}
 
 /* Start a  Simple Perfect Place To Get Lost */
 .perfect-place {

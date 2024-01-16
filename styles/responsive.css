@@ -117,19 +117,28 @@
         height: 80vh;
     }
     .deals-card{
-        left: 10%;
-        top: 25%;
-        height: 350px;
+        left: 5%;
+        top: 10%;
+        height: 400px;
         width: 250px;
     }
     .deals-card-two{
-        left: 10%;
-        top: 25%;
-        height: 350px;
+        left: 5%;
+        top: 10%;
+        height: 400px;
         width: 250px;
     }
     .get-title{
         font-size: 25px;
+    }
+    .font-small{
+        font-size: 10px;
+    }
+    .text-card{
+        margin: 0px;
+    }
+    .head-card{
+        margin: 0px;
     }
 
 }
