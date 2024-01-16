@@ -77,10 +77,10 @@ span {
 }
 
 .banner-content {
-    max-width: 800px;
     text-align: center;
+    padding: 100px 0;
+    max-width: 800px;
     margin: 0 auto;
-
 }
 
 .banner-text {
@@ -225,8 +225,38 @@ span {
     font-weight: 800;
 }
 
+/* start card section */
 .card-title {
     color: #131318;
     font-size: 24px;
     font-weight: 800;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card {
+    padding: 20px;
+    width: 573px;
+    height: 250px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(224, 167, 102, 0.05);
+}
+.top-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.card-text {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.item3 {
+    position: relative;
+    left: 50%;
 }

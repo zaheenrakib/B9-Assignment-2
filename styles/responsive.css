@@ -1,23 +1,19 @@
 @media screen and (max-width:600px) {
     body {
-        /* background-color: red; */
         padding: 10px;
     }
-
-    .nav-bar {
+    .nav-bar,
+    .tours-section ,
+    .top-img ,
+    .middle-img ,
+    .last-img {
         flex-direction: column;
     }
-
-    nav .hide {
-        /* display: none; */
-    }
-
     .nav-bar ul li {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-
     .banner {
         background-size: cover;
     }
@@ -33,7 +29,6 @@
         gap: 20px;
         width: 100%;
     }
-
     .select-location {
         display: flex;
         width: 280px;
@@ -42,10 +37,27 @@
         flex-direction: column;
         gap: 16px;
     }
-    .tours-section ,.top-img ,.middle-img ,.last-img{
-        flex-direction: column;
-    }
     .top-img ,.middle-img ,.last-img{
         gap: 0px;
+    }
+
+    /* styles card section */
+
+    .card {
+        width: 100%;
+    }
+    .top-card {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .item3 {
+        position: relative;
+        left: 0;
+    }
+}
+
+@media  screen and (min-width:600px) and  (max-width:920px) {
+    body{
+        background-color: red;
     }
 }
