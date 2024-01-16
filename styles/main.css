@@ -28,6 +28,13 @@ span {
     align-items: center;
 }
 
+.menu-icon {
+    font-size: 1.5em;
+    cursor: pointer;
+    display: none;
+    /* Hidden by default on larger screens */
+}
+
 .nav-title {
     color: #131318;
     font-size: 36px;
@@ -109,6 +116,7 @@ span {
     border-radius: 10px;
     width: 135px;
     padding: 15px;
+    outline: none;
 }
 
 .find-btn {
@@ -270,6 +278,8 @@ span {
 
 .get-container {
     display: flex;
+    justify-content: space-between;
+    gap: 20px;
 }
 
 .get-title {
@@ -285,7 +295,9 @@ span {
     font-weight: 400;
     line-height: 26px;
 }
-
+.iframe{
+    border-radius: 10px;
+}
 .get-btn {
     padding: 15px 30px;
     border: none;
@@ -302,32 +314,59 @@ span {
     margin-top: 30px;
 }
 
+.left-content {
+    width: 450px;
+    height: 422px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+
+.left-content input {
+    padding: 20px;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.news-div{
+    padding: 20px;
+}
 .news-title {
     color: #131318;
-    font-size: 24px;
+    font-size: 32px;
     font-weight: 800;
+    margin-bottom: 10px;
 }
 
 .subscribe-btn {
+    border: none;
+    color: #FFF;
+    font-weight: 600;
+    font-size: 24px;
     width: 393px;
     height: 52px;
     flex-shrink: 0;
     border-radius: 8px;
     background: #FF5400;
 }
-.news-container{
+.news-img{
+    width: 100%;
+}
+.news-container {
     display: flex;
     justify-content: space-between;
+    margin: 10px;
+    gap: 10px;
 }
 
 
 /* start a footer section */
-.footer
-{
+.footer {
     margin-top: 30px;
     /* background-color: #5A5A5D; */
 }
-.foot-title{
+
+.foot-title {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -335,8 +374,29 @@ span {
     color: #131318;
 
 }
-.foot-head{
+
+.foot-head {
     max-width: 800px;
     margin: 0 auto;
     text-align: center;
+    padding: 20px;
+}
+
+.foot-text {
+    color: #5A5A5D;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.social-icon {
+    margin: 20px 20px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.foot-copy {
+    margin-top: 20px;
 }

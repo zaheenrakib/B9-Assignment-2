@@ -1,8 +1,14 @@
 @media screen and (max-width:600px) {
     body {
-        padding: 10px;
+        padding: 20px;
+        margin: 20px;
     }
-    .nav-bar,
+    #hiden{
+        display: none;
+    }
+    .menu-icon {
+        display: block; /* Show the menu icon on smaller screens */
+    }
     .tours-section ,
     .top-img ,
     .middle-img ,
@@ -23,7 +29,21 @@
     .banner-title {
         font-size: 22px;
     }
-
+    .news-pic{
+        width: 100%;
+    }
+    .our-tour-pic{
+        width: 100%;
+    }
+    .left-content{
+        width: 100%;
+    }
+    .subscribe-btn{
+        width: 100%;
+    }
+    .iframe{
+        width: 100%;
+    }
     .input-area {
         display: inline-flex;
         flex-direction: column;
