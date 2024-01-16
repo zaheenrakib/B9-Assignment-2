@@ -20,6 +20,10 @@
     .news-container {
         flex-direction: column;
     }
+    .tours-title ,.des-title{
+        margin-top: 10px;
+        font-size: 32px;
+    }
     .nav-bar ul li {
         display: flex;
         flex-direction: column;
@@ -85,7 +89,8 @@
     /* styles card section */
 
     .card {
-        width: 100%;
+        margin-top: 10px;
+        width: 90%;
     }
     .top-card {
         display: grid;
@@ -104,14 +109,14 @@
     /* start News section */
 
     .news-img-btn{
-        width: 224px;
-        height: 80px;
+        width: 200px;
+        height: 60px;
     }
     .travel-site{
         font-size: 16px;
     }
     .save-up{
-        font-size: 24px;
+        font-size: 22px;
     }
     .deals-banner-one{
         height: 80vh;
@@ -129,7 +134,8 @@
         width: 250px;
     }
     .get-title{
-        font-size: 25px;
+        font-size: 30px;
+        line-height: normal;
     }
     .font-small{
         font-size: 10px;
@@ -141,9 +147,4 @@
         margin: 0px;
     }
 
-}
-@media  screen and (min-width:600px) and  (max-width:920px) {
-    body{
-        background-color: red;
-    }
 }
