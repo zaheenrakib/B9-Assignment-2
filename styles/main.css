@@ -16,6 +16,12 @@ body {
     --Dark-02: #424247;
 }
 
+.tours-section,
+.perfect-place li {
+    margin-left: 10px;
+    list-style-position: outside;
+}
+
 span {
     color: #FF5400;
 }
@@ -86,7 +92,7 @@ span {
 .banner-content {
     text-align: center;
     padding: 50px 0px;
-    max-width: 800px;
+    max-width: 700px;
     margin: 0 auto;
 }
 
@@ -345,6 +351,7 @@ span {
     height: 80vh;
     display: block;
 }
+
 /* Deals card */
 
 .deals-card {
@@ -360,6 +367,7 @@ span {
     background: rgba(255, 255, 255, 0.80);
     backdrop-filter: blur(2.5px);
 }
+
 .deals-card-two {
     position: relative;
     left: 0%;
@@ -457,6 +465,12 @@ span {
 
 .news-div {
     padding: 20px;
+}
+
+.news-div input {
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    width: 85%;
 }
 
 .news-title {

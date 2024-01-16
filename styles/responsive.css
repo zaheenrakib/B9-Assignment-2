@@ -1,7 +1,10 @@
 @media screen and (max-width:600px) {
     body {
-        padding: 20px;
+        padding: 22px;
         margin: 20px;
+    }
+    .nav-title{
+        font-size: 24px;
     }
     #hiden{
         display: none;
@@ -27,7 +30,7 @@
     }
 
     .banner-title {
-        font-size: 22px;
+        font-size: 30px;
     }
     .news-pic{
         width: 100%;
@@ -48,11 +51,24 @@
         display: inline-flex;
         flex-direction: column;
         align-items: center;
-        gap: 20px;
-        width: 100%;
+        text-align: center;
+        gap: 30px;
+        margin: 0 auto;
     }
     .input{
-        width: 80%;
+        padding: 10px;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .input input[type="text"] {
+        background-color: red;
+        padding: 20px;
+    }
+    .find-btn{
+        width: 100%;
+    }
+    #where-go{
+        width: 90%;
     }
     .select-location {
         display: flex;
@@ -101,13 +117,13 @@
         height: 80vh;
     }
     .deals-card{
-        left: 20%;
+        left: 10%;
         top: 25%;
         height: 350px;
         width: 250px;
     }
     .deals-card-two{
-        left: 20%;
+        left: 10%;
         top: 25%;
         height: 350px;
         width: 250px;
