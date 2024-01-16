@@ -264,9 +264,10 @@ span {
 
 
 /* Start a  Simple Perfect Place To Get Lost */
-.perfect-place{
+.perfect-place {
     margin-top: 30px;
 }
+
 .get-container {
     display: flex;
 }
@@ -284,7 +285,8 @@ span {
     font-weight: 400;
     line-height: 26px;
 }
-.get-btn{
+
+.get-btn {
     padding: 15px 30px;
     border: none;
     color: #FFF;
@@ -293,4 +295,47 @@ span {
     font-weight: 400;
     border-radius: 10px;
     background-color: var(--primary-color);
+}
+
+/* Satrt a newsLetter */
+.newsletter {
+    margin-top: 30px;
+}
+
+.news-title {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.subscribe-btn {
+    width: 393px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FF5400;
+}
+.news-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* start a footer section */
+.footer
+{
+    background-color: #5A5A5D;
+}
+.foot-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: #131318;
+
+}
+.foot-head{
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
 }

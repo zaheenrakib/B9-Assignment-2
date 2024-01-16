@@ -6,7 +6,9 @@
     .tours-section ,
     .top-img ,
     .middle-img ,
-    .last-img {
+    .last-img,
+    .get-container,
+    .news-container {
         flex-direction: column;
     }
     .nav-bar ul li {
@@ -54,8 +56,15 @@
         position: relative;
         left: 0;
     }
-}
 
+    /* Start a get lost section */
+
+ 
+
+
+    /* start News section */
+
+}
 @media  screen and (min-width:600px) and  (max-width:920px) {
     body{
         background-color: red;
