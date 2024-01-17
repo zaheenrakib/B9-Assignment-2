@@ -105,7 +105,15 @@
     /* Start a get lost section */
 
  
+/* Start Travel Card section */
 
+.travel-card-part{
+    flex-direction: column;
+
+}
+.travel-card{
+    width: 100%;
+}
 
     /* start News section */
 

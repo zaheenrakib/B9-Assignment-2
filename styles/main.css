@@ -462,7 +462,56 @@ span {
     margin-top: 8px;
 }
 
+/* Traveling Section Start */
+.travel-head {
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.travel-title {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.travel-card-part {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+
+}
+
+.travel-card {
+    background: rgba(173, 212, 28, 0.05);
+    text-align: center;
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 22px;
+    box-shadow: 10px 10px 2px 1px rgba(16, 16, 92, 0.2);
+}
+
+.travel-btn {
+    background-color: #FF5400;
+    padding: 15px;
+    margin-top: 5px;
+    border: none;
+    color: #FFF;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+
 /* Start a  Simple Perfect Place To Get Lost */
+
+
+
+
+
 .perfect-place {
     margin-top: 30px;
 }
